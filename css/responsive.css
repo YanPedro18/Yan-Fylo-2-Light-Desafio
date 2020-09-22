@@ -1,0 +1,165 @@
+@media (max-width: 980px){
+.container{
+    max-width: 320px;
+    }
+html {
+    font-size: 70%;
+    }
+    
+.header ul, a{
+    max-width: 100%;
+}
+.menu-desktop ul {
+    display: block;
+}
+.menu-desktop li+li {
+    margin: 0 auto;
+}
+
+.box1 {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.box1 h1 {
+    max-width: 100%;
+}
+.box1 img{
+    max-width: 100%;
+}
+.box1 a{
+    display: block;
+    margin: 10px 0;
+}
+.box1 p {
+    max-width: 100%;  
+}
+.box1-flex{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.box2 {
+    display: block;
+    max-width: 100%;
+}
+.box2::before {
+    width: 80%;
+    height: 10%;
+}
+.box2-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  
+}
+.box2-flex img {
+    width: 100%;
+    height: 30%;
+   
+}
+.img1 img {
+    margin: 0 auto;
+}
+.bloquin {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 100%;
+    height: 10%;
+}
+
+.bloquin p {
+    text-align: center;
+    margin: 0 auto;
+}
+.bloquin img {
+    max-width: 50%;
+
+}
+.bloquin-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.text2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text2 a {
+    margin: 20px 0;
+}
+.box3 {
+    max-width: 100%;
+
+}
+.box3 h3 {
+    margin: 20px 0;
+}
+.text3 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.text4 {
+    margin: 10px 0;
+}
+.box3-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer {
+    width: 100%;
+    height: 100%;
+}
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.social-buttons,
+.social-buttons li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+  }
+
+  @media (width: 768px) and (height: 1024px){
+      .container {
+          max-width: 100%;
+      }
+      .box1 a {
+        display: inline-block;
+      }
+      .box2 {
+        display: block;
+        max-width: 100%;
+    }
+    .box2::before {
+        width: 80%;
+        height: 10%;
+    }
+
+  }
